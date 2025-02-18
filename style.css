@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background:linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./gradient_2.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    font-family:'Poppins', sans-serif ;
+
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.intro1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-fluid p{
+    color:white;
+    font-weight: bold;
+    margin-left: 30px;
+}
+span{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 50%;
+    margin-bottom: 30px;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col div .fa{
+    font-size: 30px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 35px;
+}
+.contact-col div p{
+    padding: 0;
+}
+.contact-col div h4{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button{
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover{
+    background-color: #f44336;
+    color: white;
+}
+.contact-us h1{
+    text-align: center;
+    color: red;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: -50px -20px;
+}
+
+.fade-in h1,p{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image img{
+    width: 200px;
+    height:auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    animation: zoom-in 1.5s ease-in-out;
+    margin: 20px;
+}
+
+
+.container h1{
+    font-size: 2.5rem;
+    margin-left: 30px;
+}
+
+.container p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.projects{
+    text-align: center;
+    padding: 20px;
+}
+
+.projects h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:orangered;
+}
+
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.cards{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(244, 4, 4, 0.956);
+    overflow: hidden;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cards img{
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid rgb(4, 117, 146);
+}
+
+.cards h3{
+    font-size: 20px;
+    margin: 10px 0;
+    color:rgb(248, 247, 247);
+}
+
+.cards p{
+    font-size: 15px;
+    color: rgb(249, 246, 246);
+    padding: 0 15px 15px 15px;
+}
+
+.cards:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.cards-link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#f44336
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(244, 4, 4, 0.956);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    border-bottom: 3px solid rgb(4, 117, 146);
+}
+
+.skills h1{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    color:#f44336;
+}
